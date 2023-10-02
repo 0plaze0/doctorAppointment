@@ -1,0 +1,28 @@
+{
+  "doctor": [
+    {
+      "id": 1,
+      "name": "Dr Reddy",
+      "description": "ENT specalist, 15 years of exprience",
+      "img": "101"
+    },
+    {
+      "id": 1,
+      "name": "Dr Reddy",
+      "description": "ENT specalist, 15 years of exprience",
+      "img": "101"
+    },
+    {
+      "id": 1,
+      "name": "Dr Reddy",
+      "description": "ENT specalist, 15 years of exprience",
+      "img": "101"
+    },
+    {
+      "id": 1,
+      "name": "Dr Reddy",
+      "description": "ENT specalist, 15 years of exprience",
+      "img": "101"
+    }
+  ]
+}
