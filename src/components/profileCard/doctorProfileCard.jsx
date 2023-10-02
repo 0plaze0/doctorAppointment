@@ -8,7 +8,7 @@ const DoctorProfileCard = ({ name, description, image }) => {
     <div className="dfc">
       <div className="gradient"></div>
       <div className="profile-down">
-        <img src={src} alt="Doctor" />
+        <img src={profile_pic} alt="Doctor" />
         <h2 className="profile-title">{name}</h2>
         <p className="profile-descrption">{description}</p>
         <button className="profile-button">
