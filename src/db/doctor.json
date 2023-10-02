@@ -3,8 +3,9 @@
     {
       "id": 1,
       "name": "Dr Reddy",
-      "description": "ENT specalist, 15 years of exprience",
+      "description": "specalist, 15 years of exprience",
       "img": "101",
+      "type": "ENT",
       "fever": 2,
       "skin": 3,
       "feverWaiting": 3,
@@ -13,8 +14,9 @@
     {
       "id": 2,
       "name": "Dr Sharma",
-      "description": "ENT specalist, 15 years of exprience",
+      "description": "specalist, 15 years of exprience",
       "img": "101",
+      "type": "ENT",
       "fever": 2,
       "skin": 5,
       "feverWaiting": 3,
@@ -23,8 +25,9 @@
     {
       "id": 3,
       "name": "Dr Roy",
-      "description": "ENT specalist, 15 years of exprience",
+      "description": "specalist, 15 years of exprience",
       "img": "101",
+      "type": "SKIN",
       "fever": 2,
       "skin": 3,
       "feverWaiting": 3,
@@ -33,8 +36,9 @@
     {
       "id": 4,
       "name": "Dr Shah",
-      "description": "ENT specalist, 15 years of exprience",
+      "description": "specalist, 15 years of exprience",
       "img": "101",
+      "type": "SKIN",
       "fever": 2,
       "skin": 3,
       "feverWaiting": 4,
