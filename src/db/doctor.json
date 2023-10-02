@@ -4,25 +4,41 @@
       "id": 1,
       "name": "Dr Reddy",
       "description": "ENT specalist, 15 years of exprience",
-      "img": "101"
+      "img": "101",
+      "fever": 2,
+      "skin": 3,
+      "feverWaiting": 3,
+      "skingWaiting": 2
     },
     {
-      "id": 1,
-      "name": "Dr Reddy",
+      "id": 2,
+      "name": "Dr Sharma",
       "description": "ENT specalist, 15 years of exprience",
-      "img": "101"
+      "img": "101",
+      "fever": 2,
+      "skin": 5,
+      "feverWaiting": 3,
+      "skingWaiting": 2
     },
     {
-      "id": 1,
-      "name": "Dr Reddy",
+      "id": 3,
+      "name": "Dr Roy",
       "description": "ENT specalist, 15 years of exprience",
-      "img": "101"
+      "img": "101",
+      "fever": 2,
+      "skin": 3,
+      "feverWaiting": 3,
+      "skingWaiting": 3
     },
     {
-      "id": 1,
-      "name": "Dr Reddy",
+      "id": 4,
+      "name": "Dr Shah",
       "description": "ENT specalist, 15 years of exprience",
-      "img": "101"
+      "img": "101",
+      "fever": 2,
+      "skin": 3,
+      "feverWaiting": 4,
+      "skingWaiting": 2
     }
   ]
 }

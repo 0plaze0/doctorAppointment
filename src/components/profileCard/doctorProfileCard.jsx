@@ -1,9 +1,9 @@
 import "./styles.css";
 import profile_pic from "./Assest/101.jpg";
 
-const DoctorProfileCard = ({ name, description, image }) => {
+const DoctorProfileCard = ({ name, description, image, totalTime }) => {
   const src = `${profile_pic}/../${image}.jpg`;
-  console.log(src);
+  //console.log(src);
   return (
     <div className="dfc">
       <div className="gradient"></div>
@@ -11,6 +11,7 @@ const DoctorProfileCard = ({ name, description, image }) => {
         <img src={profile_pic} alt="Doctor" />
         <h2 className="profile-title">{name}</h2>
         <p className="profile-descrption">{description}</p>
+        <button className="profile-time">{`${totalTime} min`}</button>
         <button className="profile-button">
           <a href="https://github.dev/0plaze0">Contact</a>
         </button>
