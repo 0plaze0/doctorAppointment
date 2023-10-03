@@ -9,7 +9,7 @@ const DoctorProfileCard = ({ name, description, image, totalTime, type }) => {
   useEffect(() => {
     timeId.current = setInterval(() => {
       setTime((prev) => prev - 1);
-    }, 1000);
+    }, 60 * 1000);
     return () => clearInterval(timeId.current);
   }, []);
   useEffect(() => {
