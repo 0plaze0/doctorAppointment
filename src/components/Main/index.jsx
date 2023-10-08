@@ -7,7 +7,6 @@ import { useState } from "react";
 const Main = () => {
   const [disease, setDisease] = useState("ENT");
   const docDetails = data.doctor;
-  console.log(docDetails);
 
   const handleLogout = () => {
     localStorage.removeItem("token");
@@ -27,12 +26,16 @@ const Main = () => {
           .filter((doctor) => doctor.type === disease)
           .sort((doctor1, doctor2) => {
             const doctor1Time =
-              doctor1.fever * doctor1.feverWaiting +
-              doctor1.skin * doctor1.skingWaiting;
+              (doctor1.Ear || doctor1.vitiligo) *
+                (doctor1.vitiligoWaiting || doctor1.EarWaiting) +
+              (doctor1.Nose || doctor1.skinRash) *
+                (doctor1.NoseWaiting || doctor1.skinRash);
 
             const doctor2Time =
-              doctor2.fever * doctor2.feverWaiting +
-              doctor2.skin * doctor2.skingWaiting;
+              (doctor2.Ear || doctor2.vitiligo) *
+                (doctor2.vitiligoWaiting || doctor2.EarWaiting) +
+              (doctor2.Nose || doctor2.skinRash) *
+                (doctor2.NoseWaiting || doctor2.skinRash);
 
             if (doctor1Time < doctor2Time) return -1;
             else if (doctor1Time > doctor2Time) return 1;
@@ -42,9 +45,16 @@ const Main = () => {
             <li key={doctor.id}>
               <DoctorProfileCard
                 totalTime={
-                  doctor.fever * doctor.feverWaiting +
-                  doctor.skin * doctor.skingWaiting
+                  (doctor.Ear || doctor.vitiligo) *
+                    (doctor.vitiligoWaiting || doctor.EarWaiting) +
+                  (doctor.Nose || doctor.skinRash) *
+                    (doctor.NoseWaiting || doctor.skinRash)
                 }
+                disease1={doctor.Ear || doctor.vitiligo}
+                disease2={doctor.NoseWaiting || doctor.skinRash}
+                disease1Name={doctor.Ear ? "Ear" : "vitiligo"}
+                disease2Name={doctor.Nose ? "Nose" : "skinRash"}
+                id={doctor.id}
                 name={doctor.name}
                 description={doctor.description}
                 image={doctor.img}

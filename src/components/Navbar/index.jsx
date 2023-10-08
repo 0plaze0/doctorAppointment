@@ -1,7 +1,6 @@
 import Dropdown from "react-bootstrap/Dropdown";
 
 function BasicExample({ disease, setDisease }) {
-  console.log(disease);
   return (
     <Dropdown>
       <Dropdown.Toggle variant="success" id="dropdown-basic">

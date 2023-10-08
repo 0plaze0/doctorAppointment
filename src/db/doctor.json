@@ -6,10 +6,11 @@
       "description": "specalist, 15 years of exprience",
       "img": "101",
       "type": "ENT",
-      "fever": 2,
-      "skin": 3,
-      "feverWaiting": 3,
-      "skingWaiting": 2
+      "Ear": 4,
+      "Nose": 3,
+      "EarWaiting": 3,
+      "NoseWaiting": 2,
+      "disease": "Ear1"
     },
     {
       "id": 2,
@@ -17,10 +18,11 @@
       "description": "specalist, 15 years of exprience",
       "img": "101",
       "type": "ENT",
-      "fever": 2,
-      "skin": 5,
-      "feverWaiting": 3,
-      "skingWaiting": 2
+      "Ear": 3,
+      "Nose": 5,
+      "EarWaiting": 3,
+      "NoseWaiting": 2,
+      "disease": "Ear1"
     },
     {
       "id": 3,
@@ -28,10 +30,10 @@
       "description": "specalist, 15 years of exprience",
       "img": "101",
       "type": "SKIN",
-      "fever": 2,
-      "skin": 3,
-      "feverWaiting": 3,
-      "skingWaiting": 3
+      "skinRash": 2,
+      "vitiligo": 3,
+      "skinRashWaiting": 3,
+      "vitiligoWaiting": 3
     },
     {
       "id": 4,
@@ -39,10 +41,10 @@
       "description": "specalist, 15 years of exprience",
       "img": "101",
       "type": "SKIN",
-      "fever": 2,
-      "skin": 3,
-      "feverWaiting": 4,
-      "skingWaiting": 2
+      "skinRash": 2,
+      "vitiligo": 3,
+      "skinRashWaiting": 4,
+      "vitiligoWaiting": 2
     }
   ]
 }
